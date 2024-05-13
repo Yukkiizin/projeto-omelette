@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@media (min-width:600px) {
+    body{
+        background-color: hsl(30, 54%, 90%);
+    }
+    #container{
+        padding: 40px;
+        width: 720px;
+        margin: 2em auto;
+        background-color: white;
+        border-radius: 20px;
+    }
+    #image{
+        border-radius: 10px;
+        background-image: url(images/image-omelette.jpeg) ;
+        background-position: center ;
+        height: 300px;
+        background-repeat: no-repeat;
+    }
+    main{
+        min-width: 100%;
+    }
+    section#primeira h1{
+        font-size: 2.8em;
+    }
+    
+    #quinto div p{
+    min-width: 52%;
+
+}
+}
+@font-face {
+    font-family: 'sec';
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'yuk';
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf) ;
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blac;
+    
+}
+div#image{
+    background-image: url(images/image-omelette.jpeg);
+    background-size: cover ;
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main{
+    max-width: 80%;
+    margin: auto;
+    background-color: white;
+}
+section#primeira{
+    margin: 30px 0px;
+}
+section#primeira h1{
+    font-family: 'yuk';
+    font-weight: 500;
+    font-size: 2.5em;
+    line-height: 1;
+    color: hsl(24, 5%, 18%) ;
+}
+section#primeira p{
+    color: hsl(30, 10%, 34%);
+    font-family: 'sec';
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+    
+}
+section#segunda{
+    background-color: rgb(255, 245, 250);
+    border-radius: 20px;
+    font-family: 'sec';
+    padding: 20px 20px 0px;
+    color: hsl(0, 0%, 0%);
+}
+section#segunda h2{
+    color: hsl(332, 51%, 32%);
+}
+section#segunda ul {
+    padding: 20px 34px;
+}
+section#segunda ul li {
+    align-items: center;
+    padding: 10px;
+    color: hsl(30, 10%, 34%);
+}
+section#terceira{
+    margin: 30px 0px;
+
+}
+section#terceira h1{
+    color: hsl(14, 45%, 36%);
+    font-family: 'yuk';
+    font-weight: 500;
+}
+section#terceira ul{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+section#terceira ul li{
+    font-weight: 400;
+    font-family: 'sec';
+    color: rgb(95, 87, 78);
+   line-height: 1.6;
+}
+section#quarta{
+    border-top: 1px solid rgba(95, 87, 78, 0.322);
+    padding: 30px 0px;
+    border-bottom: 1px solid rgba(95, 87, 78, 0.322);
+}
+section#quarta h1{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+section#quarta ol li{
+    margin-left: 22px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    font-family: 'sec';
+    font-size: 19px;
+}
+section#quarta ol li p{
+    margin: 10px 0 10px 10px;
+}
+section#quinto{
+    color: rgb(95, 87, 78);
+}
+section#quinto h1{
+    font-family: 'yuk';
+    margin-top: 30px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-size: 2em;
+}
+section#quinto p{
+    font-family: 'sec';
+    color: rgb(95, 87, 78);
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 19px;
+}
+#quinto .calories{
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px solid rgba(95, 87, 78, 0.322);
+    align-items: center;
+    font-family: 'sec';
+}
+#quinto div p{
+    font-weight: 400;
+    margin-left: 34px;
+    padding-bottom: 20px;
+    width: 45%;
+
+}
+#quinto .calories strong{
+    font-weight: bolder;
+    color: hsl(14, 45%, 36%);
+}
+#quinto .ultimo{
+    border: none;
+}
+
+
+
